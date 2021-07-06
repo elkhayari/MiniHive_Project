@@ -1,0 +1,2 @@
+# MiniHive_Project
+The goal of this project is to build a mini-version of Apache Hive, called miniHive. The first milestone is to write a query compiler that translates simple SQL queries into relational algebra. Then, in the next phase add selection pushing to optimize the query based on rules for the logical optimization of relational algebra, such as rules for join reordering or projection pushing, and then compile the relational algebra query into a physical query plan of MapReduce jobs.
